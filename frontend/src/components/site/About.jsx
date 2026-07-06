@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { accolades } from "@/data/portfolio";
 
 const aboutImage =
-  "https://images.pexels.com/photos/8093910/pexels-photo-8093910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+  "https://customer-assets.emergentagent.com/job_culinary-nomad/artifacts/mnolkxds_WhatsApp%20Image%202026-07-06%20at%2012.50.44%20AM.jpeg";
 
 const journey = [
   { year: "2004", place: "Amritsar, IN", note: "First apprenticeship. Tandoor, dawn to dusk." },
