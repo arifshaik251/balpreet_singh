@@ -1,0 +1,112 @@
+{
+  "theme_archetype": "Archetype 5: Luxury, Dark Theme",
+  "domain": "Professional Chef Portfolio",
+  "typography": {
+    "fonts": {
+      "headings": "Cormorant Garamond",
+      "body": "Outfit",
+      "import_instructions": "Import Google Fonts: @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500&display=swap');"
+    },
+    "scales": {
+      "h1": "text-5xl sm:text-6xl md:text-7xl font-light tracking-tighter leading-none",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight leading-tight",
+      "h3": "text-2xl sm:text-3xl font-medium tracking-tight",
+      "body": "text-base sm:text-lg leading-relaxed font-light text-stone-300",
+      "small_caps": "text-xs sm:text-sm uppercase tracking-[0.2em] font-medium text-stone-400"
+    }
+  },
+  "colors": {
+    "background": "bg-[#0A0908]",
+    "surface": "bg-[#141210]",
+    "surface_glass": "bg-[#0A0908]/70 backdrop-blur-xl border-b border-white/5",
+    "text_primary": "text-[#E6E2DD]",
+    "text_secondary": "text-[#A8A29E]",
+    "accent_gold": "text-[#C5A059]",
+    "accent_bg": "bg-[#C5A059]",
+    "border": "border-white/10"
+  },
+  "spacing_layout": {
+    "philosophy": "Generous Spacing. 'Godly' editorial style. Allow images and typography to breathe. Emphasize asymmetry and negative space.",
+    "section_padding": "py-24 sm:py-32",
+    "container": "max-w-7xl mx-auto px-6 sm:px-8 lg:px-12",
+    "grid_modes": {
+      "bento_editorial": "grid-cols-1 md:grid-cols-12 gap-8 md:gap-12"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#C5A059] text-black hover:bg-[#D4B371] transition-colors duration-300 rounded-none px-8 py-4 uppercase tracking-widest text-xs font-medium",
+      "outline": "border border-white/20 text-[#E6E2DD] hover:bg-white/5 transition-colors duration-300 rounded-none px-8 py-4 uppercase tracking-widest text-xs font-medium"
+    },
+    "cards": {
+      "dish_card": "group relative overflow-hidden bg-[#141210] border border-white/5 rounded-none",
+      "hover_effect": "image scales up slightly (scale-105 duration-700), overlay darkens, text translates up"
+    },
+    "forms": {
+      "input": "bg-transparent border-b border-white/20 focus:border-[#C5A059] text-[#E6E2DD] placeholder:text-stone-600 rounded-none px-0 py-4 focus:ring-0 transition-colors shadow-none",
+      "rules": "Use Shadcn Form/Input logic but strip standard Vercel rounded borders. Make it look like a high-end editorial contact form."
+    }
+  },
+  "motion": {
+    "scrolling": "Use lenis or simple smooth native CSS scroll. Emphasize slow, elegant transitions.",
+    "framer_motion": {
+      "fade_up": "initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }} viewport={{ once: true, margin: '-100px' }}",
+      "image_reveal": "Wrap images in a container with overflow-hidden, and animate the image from scale 1.1 to 1 on scroll."
+    }
+  },
+  "media": {
+    "hero": [
+      {
+        "url": "https://images.pexels.com/photos/8477058/pexels-photo-8477058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Serious male chef with beard in uniform, low angle indoor shot.",
+        "usage": "Hero section background with bg-black/50 overlay to ensure text contrast."
+      }
+    ],
+    "about": [
+      {
+        "url": "https://images.pexels.com/photos/8093910/pexels-photo-8093910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Chef examining a garlic clove.",
+        "usage": "About/Bio section side image, styled elegantly."
+      }
+    ],
+    "dishes": [
+      {
+        "url": "https://images.unsplash.com/photo-1692197275441-40c874f40385?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Plated gourmet dish 1"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Chef pouring sauce"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1692197275931-0793e08efcc1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHw0fHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Plated gourmet dish 2"
+      }
+    ],
+    "projects": [
+      {
+        "url": "https://images.pexels.com/photos/4577715/pexels-photo-4577715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Luxury restaurant interior (Past/Upcoming projects)"
+      },
+      {
+        "url": "https://images.pexels.com/photos/880424/pexels-photo-880424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Cozy restaurant interior (Current projects)"
+      }
+    ],
+    "awards": [
+      {
+        "url": "https://images.pexels.com/photos/28435314/pexels-photo-28435314.jpeg",
+        "description": "Elegant flat lay of gourmet dishes showcasing culinary presentation."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "CRITICAL: All interactive elements (links, buttons, inputs, form submissions) MUST have a `data-testid` attribute in kebab-case. E.g., `data-testid='hero-cta-button'`, `data-testid='instagram-link'`, `data-testid='consultation-form-submit'`.",
+    "Do NOT use standard Shadcn card or button border-radius. Force `rounded-none` for an editorial, sharp look.",
+    "Header must be dark glassmorphism (`bg-[#0A0908]/70 backdrop-blur-xl`) or solid dark. Do NOT leave it fully transparent if it scrolls over text/images.",
+    "For the hero image overlay, use `bg-black/50` or a gradient to ensure text readability while letting the image shine.",
+    "Include `lucide-react` icons (Instagram, Facebook) in the contact section to replace generic text.",
+    "Use Framer Motion to slowly reveal dishes and project images as the user scrolls (fade up and slow scale-down on images inside containers).",
+    "Form inputs should look like elegant underline inputs, not standard boxed inputs."
+  ]
+}
