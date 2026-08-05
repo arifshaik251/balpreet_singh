@@ -84,22 +84,22 @@ export const dishes = [
       "The Chef's homage to the 1947 original — clay-oven chicken finished in a slow tomato, fenugreek and cultured-butter gravy. Honouring the classic without copying it.",
   },
   {
-    id: "millet-biryani",
-    name: "Millet Biryani",
-    origin: "Deccan Plateau",
+    id: "kerala-duck",
+    name: "Kerala Spiced Duck & Coco Bulgur",
+    origin: "Hyatt Culinary Challenge · Hyderabad & Abu Dhabi",
     image:
-      "https://images.unsplash.com/photo-1692197275931-0793e08efcc1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHw0fHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJlfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
+      "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/6333o38c_IMG-0035.webp",
     note:
-      "The Chef's celebrated dum biryani reworked with heritage millets — first published in Scroll.in as a landmark of India's grain revival.",
+      "The plate that earned Chef Chadha national recognition at the Hyatt Culinary Challenge — Kerala-spiced duck, creamy pilaf, cèpes, roast kohlrabi, garlic-tossed rapa and lamb-tongue crisps.",
   },
   {
-    id: "mango-prawn-curry",
-    name: "Spicy Mango Prawn Curry",
-    origin: "Kerala Coast · with red rice",
+    id: "prawn-spaghetti",
+    name: "Prawn Aglio Spaghetti",
+    origin: "Indo-Italian · from the global menu",
     image:
-      "https://images.pexels.com/photos/28435314/pexels-photo-28435314.jpeg",
+      "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/jtemgb7k_IMG-0498.JPG",
     note:
-      "Tiger prawns, unripe Alphonso, coconut, mustard and curry-leaf oil — served with Kerala's earthy red rice. Published feature, Scroll.in.",
+      "Wok-kissed tiger prawns, extra-virgin olive oil, Kashmiri chilli, black raisins and shaved parmesan — the Chef's Indo-Italian cross-over dish.",
   },
 ];
 

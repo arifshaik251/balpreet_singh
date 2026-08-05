@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { services, cuisines } from "@/data/portfolio";
 
+const consultingImage =
+  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/a2a9bi3h_IMG-0033.webp";
+
 export default function Consulting() {
   return (
     <section
@@ -39,6 +42,42 @@ export default function Consulting() {
             </a>
           </div>
         </div>
+
+        {/* Editorial band: chef at the pass */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          className="relative mb-16 overflow-hidden"
+          data-testid="consulting-editorial"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-0 items-stretch">
+            <div className="md:col-span-7 relative aspect-[16/10] md:aspect-auto overflow-hidden">
+              <motion.img
+                initial={{ scale: 1.15 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
+                src={consultingImage}
+                alt="Chef Chadha plating at the pass"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[#0A0908] pointer-events-none" />
+            </div>
+            <div className="md:col-span-5 bg-[#141210] p-10 lg:p-14 flex flex-col justify-center">
+              <div className="font-small-caps text-[#C5A059] mb-4">— At the Pass</div>
+              <p className="font-serif-display italic text-2xl md:text-3xl text-[#E6E2DD] leading-snug">
+                &ldquo;The kitchen is a business first, a stage second. My job is to make sure both
+                run — quietly, precisely, night after night.&rdquo;
+              </p>
+              <div className="mt-6 font-small-caps text-[#A8A29E]">
+                — Chef Balpreet Singh Chadha
+              </div>
+            </div>
+          </div>
+        </motion.div>
 
         {/* Cuisine badges */}
         <motion.div

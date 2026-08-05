@@ -3,7 +3,7 @@ import { Award } from "lucide-react";
 import { accolades, press } from "@/data/portfolio";
 
 const awardsImage =
-  "https://images.pexels.com/photos/28435314/pexels-photo-28435314.jpeg";
+  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/0p61r8ky_IMG-0030.webp";
 
 export default function Awards() {
   return (
@@ -89,8 +89,8 @@ export default function Awards() {
                 viewport={{ once: true }}
                 transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
                 src={awardsImage}
-                alt="Gourmet plating"
-                className="w-full h-[540px] object-cover"
+                alt="Chef Chadha at the Hyatt Culinary Challenge"
+                className="w-full h-[540px] object-cover object-[70%_center]"
                 loading="lazy"
               />
               <div className="absolute inset-0 border border-[#C5A059]/20 pointer-events-none" />

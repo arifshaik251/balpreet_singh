@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { dishes } from "@/data/portfolio";
 
+const detailImage =
+  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/km4m9eik_IMG-0501.JPG";
+
 export default function Dishes() {
   return (
     <section
@@ -76,6 +79,36 @@ export default function Dishes() {
             </motion.article>
           ))}
         </div>
+
+        {/* Editorial detail — plating art */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center"
+          data-testid="dishes-detail"
+        >
+          <div className="md:col-span-5 bg-white p-8 md:p-12 flex items-center justify-center">
+            <img
+              src={detailImage}
+              alt="Curry-leaf and herb tuile — plating detail"
+              className="w-full max-w-xs h-auto object-contain drop-shadow-xl"
+              loading="lazy"
+            />
+          </div>
+          <div className="md:col-span-7 md:pl-6">
+            <div className="font-small-caps text-[#C5A059] mb-4">— Plating Detail</div>
+            <h3 className="font-serif-display text-3xl md:text-4xl text-[#E6E2DD] leading-snug">
+              Curry-leaf &amp; spinach tuiles — the modern grammar of an ancient pantry.
+            </h3>
+            <p className="mt-5 text-[#A8A29E] font-body font-light leading-relaxed max-w-2xl">
+              Dehydrated curry-leaf and spinach crisps, plated as an edible sculpture. A signature
+              flourish across Chef Chadha's tasting menus — where the visual language of Modern
+              Indian meets the technique of the world's most exacting kitchens.
+            </p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
