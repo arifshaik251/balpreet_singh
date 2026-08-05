@@ -1,6 +1,7 @@
 import Nav from "@/components/site/Nav";
 import Hero from "@/components/site/Hero";
 import About from "@/components/site/About";
+import Consulting from "@/components/site/Consulting";
 import Dishes from "@/components/site/Dishes";
 import Projects from "@/components/site/Projects";
 import Awards from "@/components/site/Awards";
@@ -13,6 +14,7 @@ export default function Portfolio() {
       <Nav />
       <Hero />
       <About />
+      <Consulting />
       <Dishes />
       <Projects />
       <Awards />

@@ -38,7 +38,7 @@ export default function Hero() {
               className="font-small-caps text-[#C5A059] mb-8 flex items-center gap-3"
             >
               <span className="w-10 h-px bg-[#C5A059]" />
-              Portfolio · Est. 2004
+              {chef.hero_tagline}
             </motion.div>
 
             <motion.h1
@@ -98,7 +98,7 @@ export default function Hero() {
                 A Note from the Chef
               </div>
               <p className="font-serif-display italic text-[#E6E2DD] text-2xl leading-snug">
-                &ldquo;Cooking is memory made edible. Every plate carries the road that brought me here.&rdquo;
+                &ldquo;{chef.philosophy}&rdquo;
               </p>
               <div className="mt-4 font-small-caps text-[#A8A29E]">
                 — {chef.location}

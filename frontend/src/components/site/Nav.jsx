@@ -5,6 +5,7 @@ import { chef } from "@/data/portfolio";
 
 const links = [
   { label: "About", href: "#about" },
+  { label: "Consulting", href: "#consulting" },
   { label: "Dishes", href: "#dishes" },
   { label: "Projects", href: "#projects" },
   { label: "Awards", href: "#awards" },

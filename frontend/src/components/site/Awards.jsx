@@ -97,10 +97,10 @@ export default function Awards() {
             </div>
             <div className="mt-6 flex items-center gap-4">
               <span className="font-serif-display text-5xl text-[#C5A059] leading-none">
-                12
+                10+
               </span>
               <span className="font-body font-light text-[#A8A29E] leading-tight">
-                International honours <br />across two decades of service.
+                International honours across <br />two decades of service.
               </span>
             </div>
           </motion.div>

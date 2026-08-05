@@ -1,15 +1,20 @@
 import { motion } from "framer-motion";
-import { accolades } from "@/data/portfolio";
+import { accolades, guests } from "@/data/portfolio";
 
 const aboutImage =
   "https://customer-assets.emergentagent.com/job_culinary-nomad/artifacts/mnolkxds_WhatsApp%20Image%202026-07-06%20at%2012.50.44%20AM.jpeg";
 
 const journey = [
-  { year: "2004", place: "Amritsar, IN", note: "First apprenticeship. Tandoor, dawn to dusk." },
-  { year: "2009", place: "Mumbai, IN", note: "Sous chef, luxury hotel group." },
-  { year: "2013", place: "London, UK", note: "Head chef — the first modern Indian tasting menu." },
-  { year: "2019", place: "London · Dubai", note: "Opens Aether. Michelin recognition follows." },
-  { year: "2024", place: "New Delhi, IN", note: "Returns home. Founds MITTI." },
+  { year: "1996", place: "Family · India", note: "The Chadha family enters the restaurant business — Punjabi Dhabas, lassi shops, K Resort & Celine's Kitchen (Pondicherry)." },
+  { year: "2003", place: "Puducherry, IN", note: "Chef Balpreet begins his professional culinary career, raised inside the family trade." },
+  { year: "2005 — 12", place: "Taj · ITC · Marriott", note: "Masala Kraft (Taj Mumbai), Bukhara & Dum Pukht (ITC Maurya), Dakshin (Sheraton), Singh Sahib (Eros InterContinental), Bengaluru Marriott." },
+  { year: "2011", place: "ICC World Cup", note: "Banquet Chef — cooked for PM Modi, PM Singh, President Mukherjee, Hillary Clinton & Gulf royalty." },
+  { year: "2013 — 15", place: "United Arab Emirates", note: "Brand Chef, De Thali & PepperMill by Tablez — Lulu Group International." },
+  { year: "2015 — 16", place: "Madrid, ES", note: "Opening chef, Benares Madrid — Michelin recognized. Stages at 2★ Santceloni & Juanito Kojua, San Sebastián." },
+  { year: "2018 — 20", place: "New Delhi, IN", note: "Director of Culinary Ops → Exec Sous Chef, Andaz Delhi. AnnaMaya ranked #20 CNT India; #1 Raw & Fine." },
+  { year: "2022", place: "Kolkata, IN", note: "Executive Chef, The Park — launched Beer Garden, the first alfresco concept on Park Street." },
+  { year: "2023", place: "Dallas, TX", note: "Appointed Corporate Chef, Tivona Group. Named to Condé Nast Traveller India's '40 Under 40'." },
+  { year: "2024 — Now", place: "Texas · Sweden", note: "Opens Sanjh, Nirvana Lounge & The Mango Yard. Mentors Delhi 6 in Växjö. Consulting practice goes global." },
 ];
 
 export default function About() {
@@ -36,7 +41,7 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
                 src={aboutImage}
-                alt="Chef examining ingredient"
+                alt="Chef Balpreet Singh Chadha portrait"
                 className="w-full h-[520px] object-cover"
                 loading="lazy"
               />
@@ -44,10 +49,10 @@ export default function About() {
             </div>
             <div className="mt-6 border-l border-[#C5A059]/60 pl-5 py-1">
               <div className="font-small-caps text-[#C5A059]">
-                Since 2004
+                A Restaurant Family Since 1996
               </div>
               <div className="font-serif-display italic text-[#E6E2DD] text-2xl mt-1">
-                From village kitchen to the world stage.
+                From dhaba to Michelin — and everything in between.
               </div>
             </div>
           </motion.div>
@@ -61,29 +66,48 @@ export default function About() {
               transition={{ duration: 0.8 }}
             >
               <div className="font-small-caps text-[#C5A059] mb-6 flex items-center gap-3">
-                <span className="w-10 h-px bg-[#C5A059]" /> The Chef
+                <span className="w-10 h-px bg-[#C5A059]" /> My Story
               </div>
               <h2
                 data-testid="about-heading"
                 className="font-serif-display text-4xl sm:text-5xl lg:text-6xl text-[#E6E2DD] leading-tight tracking-tight"
               >
-                A palate shaped
+                A palate shaped by
                 <br />
-                by <span className="italic text-[#C5A059]">fourteen</span> countries.
+                <span className="italic text-[#C5A059]">eight countries</span> and
+                <br />
+                twenty years at the pass.
               </h2>
               <p className="mt-8 text-[#A8A29E] font-body font-light text-lg leading-relaxed max-w-2xl">
-                Balpreet trained in the wood-fired kitchens of Punjab before earning
-                his stripes across Mumbai, London, Copenhagen and Singapore. Along
-                the way, he learned that great food is never loud — it is deeply
-                listened to.
+                Chef Balpreet began his professional career in Puducherry in 2003, sharpened his craft
+                in India's most storied kitchens — Masala Kraft at the Taj Mumbai, Bukhara &amp; Dum
+                Pukht at ITC Maurya, and Dakshin at Sheraton — then took Indian cuisine to Madrid,
+                where he led the opening of Benares, recognized by the Michelin Guide in 2016.
               </p>
               <p className="mt-6 text-[#A8A29E] font-body font-light text-lg leading-relaxed max-w-2xl">
-                His work bridges the ancestral spice larder of the subcontinent
-                with the technical precision of Nordic and French traditions.
-                The result is a cuisine that feels at once ancient and startlingly new
-                — plates that carry the smell of monsoon smoke and the poise of a
-                twelve-course Michelin service.
+                He returned to India to helm AnnaMaya at Andaz Delhi — ranked #20 on Condé Nast
+                Traveller India's Top Restaurants and #1 in the Raw &amp; Fine category — before
+                moving to Texas in 2023 as Corporate Chef of Tivona Group, where he opened Sanjh,
+                Nirvana Lounge and The Mango Yard. Today his consulting practice reaches from Delhi 6
+                in Sweden to central kitchens under scoping across three continents.
               </p>
+
+              {/* Guests strip */}
+              <div className="mt-10 border-t border-white/10 pt-6" data-testid="guests-strip">
+                <div className="font-small-caps text-[#A8A29E] mb-3">
+                  — Has Cooked For
+                </div>
+                <div className="flex flex-wrap gap-x-6 gap-y-2 font-serif-display italic text-lg text-[#E6E2DD]">
+                  {guests.map((g, i) => (
+                    <span key={g} className="flex items-center gap-6">
+                      {g}
+                      {i < guests.length - 1 && (
+                        <span className="w-1 h-1 rounded-full bg-[#C5A059]" />
+                      )}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </motion.div>
 
             {/* Journey timeline */}
@@ -102,7 +126,7 @@ export default function About() {
                 {journey.map((j) => (
                   <li
                     key={j.year}
-                    className="grid grid-cols-[80px_1fr] sm:grid-cols-[100px_180px_1fr] gap-4 border-t border-white/10 pt-6"
+                    className="grid grid-cols-[90px_1fr] sm:grid-cols-[110px_200px_1fr] gap-4 border-t border-white/10 pt-6"
                   >
                     <span className="font-serif-display text-2xl text-[#C5A059]">
                       {j.year}

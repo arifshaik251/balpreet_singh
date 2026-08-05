@@ -9,10 +9,12 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
 const projectTypes = [
-  "Restaurant Opening",
-  "Menu Consultation",
-  "Private Dining",
-  "Brand Collaboration",
+  "Pre-Opening & SOPs",
+  "Turnaround Project",
+  "Kitchen Design & Setup",
+  "Central Kitchen",
+  "Bar Program",
+  "Catering & Events",
   "Media / Press",
   "Other",
 ];

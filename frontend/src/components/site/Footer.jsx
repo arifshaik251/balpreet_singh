@@ -32,6 +32,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#consulting" className="hover:text-[#C5A059]" data-testid="footer-link-consulting">
+                  Consulting
+                </a>
+              </li>
+              <li>
                 <a href="#dishes" className="hover:text-[#C5A059]" data-testid="footer-link-dishes">
                   Signature Dishes
                 </a>
