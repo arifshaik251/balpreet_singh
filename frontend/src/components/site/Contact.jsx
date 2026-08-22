@@ -81,9 +81,7 @@ export default function Contact() {
               <span className="italic text-[#C5A059]">something rare.</span>
             </h2>
             <p className="mt-8 font-body font-light text-lg text-[#A8A29E] leading-relaxed max-w-md">
-              For restaurant consultations, menu development, private dining,
-              brand collaborations, or press enquiries — reach out via the form
-              or the channels below.
+              For pre-openings, turnarounds, catering or press — reach out via the form or the channels below.
             </p>
 
             <div className="mt-12 space-y-5">

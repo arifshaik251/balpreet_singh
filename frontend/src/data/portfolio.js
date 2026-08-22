@@ -9,12 +9,12 @@ export const chef = {
   tagline: "Global Culinary Artist · F&B Consultant",
   hero_tagline: "Celebrating 3,500 years of Indian cuisine — one plate at a time.",
   intro:
-    "From the kitchens of Delhi to Michelin-starred restaurants in Spain, and now to Texas — where his portfolio spans Sanjh in Las Colinas, Nirvana Lounge at Toyota Music Factory, and The Mango Yard in Frisco — Chef Balpreet has spent two decades telling the story of India through food, and helping restaurants, hotels and hospitality groups around the world open, grow and turn around their F&B operations.",
+    "From Delhi's classical kitchens to Michelin-recognized rooms in Spain — and now to Texas, where he leads Sanjh, Nirvana Lounge and The Mango Yard. Twenty years telling India's story through food, and helping restaurants open, grow and turn around.",
   short_intro:
-    "20+ years across India, the UAE, Spain, France, Sweden & the USA. Michelin-recognized opening chef. Pre-opening, SOP & turnaround specialist.",
-  location: "Based in Dallas–Fort Worth, Texas · Consulting worldwide",
+    "20+ years across 8 countries. Michelin opening chef. Pre-opening, SOP & turnaround specialist.",
+  location: "Dallas–Fort Worth · Consulting worldwide",
   philosophy:
-    "Indian food is often lumped into north and south. In truth it is innumerable regions, each with its own voice. My job is to let every one of them speak.",
+    "Indian food isn't north and south — it's countless regions, each with its own voice. My job is to let every one speak.",
   quote:
     "The menu is an ode to my home country — a celebration of all Indian cuisines.",
   socials: {
@@ -68,11 +68,11 @@ export const dishes = [
   {
     id: "fish-roast",
     name: "Coastal Fish Roast",
-    origin: "Coastal South India · demonstrated live on Good Morning Texas",
+    origin: "Coastal South India · Good Morning Texas",
     image:
       "https://images.unsplash.com/photo-1692197275441-40c874f40385?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
     note:
-      "Banana-leaf wrapped, curry-leaf tempered, slow-roasted — a signature of the Sanjh menu and the dish Chef Chadha cooked on air for WFAA Dallas.",
+      "Banana-leaf wrapped, curry-leaf tempered. Cooked live on WFAA Dallas.",
   },
   {
     id: "old-delhi-butter-chicken",
@@ -81,70 +81,70 @@ export const dishes = [
     image:
       "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
     note:
-      "The Chef's homage to the 1947 original — clay-oven chicken finished in a slow tomato, fenugreek and cultured-butter gravy. Honouring the classic without copying it.",
+      "Clay-oven chicken finished in a slow tomato-fenugreek gravy — a homage to the 1947 original.",
   },
   {
     id: "kerala-duck",
     name: "Kerala Spiced Duck & Coco Bulgur",
-    origin: "Hyatt Culinary Challenge · Hyderabad & Abu Dhabi",
+    origin: "Hyatt Culinary Challenge",
     image:
       "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/6333o38c_IMG-0035.webp",
     note:
-      "The plate that earned Chef Chadha national recognition at the Hyatt Culinary Challenge — Kerala-spiced duck, creamy pilaf, cèpes, roast kohlrabi, garlic-tossed rapa and lamb-tongue crisps.",
+      "The plate that took him to the national final — duck, cèpes, roast kohlrabi, lamb-tongue crisps.",
   },
   {
     id: "prawn-spaghetti",
     name: "Prawn Aglio Spaghetti",
-    origin: "Indo-Italian · from the global menu",
+    origin: "Indo-Italian · global menu",
     image:
       "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/jtemgb7k_IMG-0498.JPG",
     note:
-      "Wok-kissed tiger prawns, extra-virgin olive oil, Kashmiri chilli, black raisins and shaved parmesan — the Chef's Indo-Italian cross-over dish.",
+      "Wok-kissed tiger prawns, Kashmiri chilli, black raisins, shaved parmesan.",
   },
 ];
 
 export const services = [
   {
     key: "pre-opening",
-    title: "Pre-Opening & SOP Curation",
+    title: "Pre-Opening & SOPs",
     body:
-      "End-to-end pre-opening leadership — concept, menu engineering, brigade recruitment & training, vendor setup, budgeting, trials and launch — anchored by his globally recognized specialty: curating complete Standard Operating Procedures for hotel, restaurant & banqueting kitchens.",
+      "End-to-end launch — concept, menu, brigade, trials, opening night. Full Standard Operating Procedures across kitchen, service and banqueting.",
   },
   {
     key: "turnaround",
     title: "Turnaround & Revival",
     body:
-      "A full diagnostic of menu, food cost, workflow, SOPs, team and guest experience — followed by a practical turnaround plan and hands-on execution until the numbers move. Sustainable profitability, not launch-day pyrotechnics.",
+      "Diagnostic + practical plan for menu, food cost, workflow and team. Hands-on until the numbers move.",
   },
   {
     key: "kitchen-design",
     title: "Kitchen Design & Setup",
     body:
-      "Planning and commissioning of commercial kitchens: layout, workflow, equipment specification, tandoor and live-fire stations, hygiene compliance and staffing structure — built for the menu, not the other way around.",
+      "Layout, workflow, equipment specs, tandoor & live-fire stations, hygiene and staffing — built for the menu.",
   },
   {
     key: "central-kitchen",
     title: "Central Kitchen & Commissary",
     body:
-      "Design and rollout of central production kitchens for multi-outlet brands, cloud kitchens and catering operations — production planning, recipe standardization at scale, cold-chain, QC and cost control.",
+      "Commissary rollout for multi-outlet and cloud kitchens — production planning, cold-chain, QC and scale.",
   },
   {
     key: "bar-program",
     title: "Bar Program & Beverage",
     body:
-      "Complete bar planning — layout, equipment, beverage menu direction, costing and training — drawing on Chef Chadha's work alongside world-class mixology talent to build bar programs that match the kitchen's ambition.",
+      "Bar planning, beverage menu, costing and training — built to match the kitchen's ambition.",
   },
   {
     key: "global-cuisines",
     title: "Global Cuisines, Bakery & Pastry",
     body:
-      "Menu creation across a repertoire of world cuisines — Indian in all its regional depth, plus Italian, French, Spanish, pan-Asian, Pakistani and Middle Eastern — paired with dedicated bakery & pastry program development.",
+      "Menu creation across Indian, Italian, French, Spanish, pan-Asian, Pakistani & Middle Eastern — plus dedicated pastry programs.",
   },
   {
     key: "catering",
-    title: "Catering & Bespoke Event Menus",
+    title: "Catering & Bespoke Events",
     body:
-      "Globally recognized catering: bespoke menus for weddings, private events and marquee occasions — from intimate celebrations to large-scale banquets. Signature experiences can be curated in collaboration with celebrity chefs.",
+      "Bespoke menus for weddings and marquee events — intimate to large-scale, with celebrity-chef collaborations on request.",
   },
 ];
 
@@ -152,61 +152,61 @@ export const projects = {
   past: [
     {
       title: "Benares · Madrid",
-      role: "Opening Chef · Chef's Table Concept",
+      role: "Opening Chef",
       city: "Madrid, Spain",
       year: "2015 — 2016",
       blurb:
-        "Led the opening team of Benares — recognized by the Michelin Guide within a year — and created its chef's-table concept. Additional stages at two-Michelin-starred Santceloni (Madrid) and Juanito Kojua (San Sebastián).",
+        "Led the opening — Michelin-recognized within a year. Stages at 2★ Santceloni & Juanito Kojua, San Sebastián.",
     },
     {
       title: "AnnaMaya · Andaz Delhi (Hyatt)",
-      role: "Director of Culinary Operations → Executive Sous Chef",
+      role: "Executive Sous Chef",
       city: "New Delhi, India",
       year: "2018 — 2020",
       blurb:
-        "Ranked #20 on Condé Nast Traveller India's Top Restaurants 2018 and #1 in the Raw & Fine category. Represented the hotel at the Hyatt Culinary Challenge — Hyderabad & Abu Dhabi.",
+        "#20 on Condé Nast Traveller India's Top Restaurants 2018. #1 in the Raw & Fine category.",
     },
     {
       title: "Beer Garden · The Park Kolkata",
-      role: "Executive Chef · Concept Launch",
+      role: "Executive Chef",
       city: "Kolkata, India",
       year: "2022",
       blurb:
-        "Launched and curated the menu for the first alfresco concept of its kind on Park Street. Featured in The Telegraph t2. Portfolio also spanned The Denmark Tavern — a restored 18th-century Danish-era heritage tavern in Serampore.",
+        "Launched the first alfresco concept on Park Street. Featured in The Telegraph t2.",
     },
     {
-      title: "De Thali & PepperMill by Tablez",
-      role: "Brand Chef · Pan-Indian Concepts",
+      title: "De Thali & PepperMill",
+      role: "Brand Chef · Tablez",
       city: "United Arab Emirates",
       year: "2013 — 2015",
       blurb:
-        "Brand Chef for Tablez, the F&B division of Lulu Group International, shaping two pan-Indian restaurant brands across the UAE.",
+        "Two pan-Indian brands rolled out across the UAE for Lulu Group International.",
     },
   ],
   current: [
     {
-      title: "Sanjh · Elevated Indian Fine Dining",
+      title: "Sanjh · Elevated Indian",
       role: "Opening Corporate Chef · Tivona Group",
       city: "Las Colinas, Texas",
-      year: "Jan 2024 — Present",
+      year: "2024 — Now",
       blurb:
-        "An ode to 3,500 years of Indian cuisine. Covered by Texas Monthly, D Magazine, CultureMap, the Dallas Observer and DFW television — the flagship of the Tivona portfolio.",
+        "The flagship. Covered by Texas Monthly, D Magazine, CultureMap, Dallas Observer & DFW TV.",
     },
     {
-      title: "Nirvana Lounge · Toyota Music Factory",
+      title: "Nirvana Lounge",
       role: "Culinary Program Lead",
-      city: "Irving, Texas",
-      year: "2025 — Present",
+      city: "Toyota Music Factory, Irving TX",
+      year: "2025 — Now",
       blurb:
-        "An Indo-Chinese lounge menu developed by the Sanjh culinary team — Indian street-food vibrancy meets wok-fired Chinese depth.",
+        "An Indo-Chinese lounge menu — Indian street-food vibrancy meets wok-fired depth.",
     },
     {
-      title: "The Mango Yard · Modern Indian",
+      title: "The Mango Yard",
       role: "Culinary Director",
       city: "Frisco, Texas",
-      year: "2026 — Present",
+      year: "2026 — Now",
       blurb:
-        "A new-age Indian dining and live-entertainment destination — Chef Chadha's standalone consulting engagement and a live case study of the practice.",
+        "New-age Indian dining and live entertainment — a live case study of the consulting practice.",
     },
     {
       title: "Delhi 6 · Indian Street Food",
@@ -214,33 +214,33 @@ export const projects = {
       city: "Växjö, Sweden",
       year: "Opened June 2026",
       blurb:
-        "Bringing the flavours of Old Delhi's streets to central Växjö — an ongoing consulting engagement that opened to strong local press.",
+        "Old Delhi's streets in central Växjö. Strong local press on opening.",
     },
   ],
   upcoming: [
     {
-      title: "2026–27 Consulting Slate",
-      role: "Pre-Opening & Turnaround Engagements",
-      city: "Worldwide · Limited Availability",
+      title: "2026 – 27 Consulting Slate",
+      role: "Pre-Opening & Turnaround",
+      city: "Worldwide",
       year: "Now Booking",
       blurb:
-        "A limited number of new pre-opening, SOP and turnaround engagements each year — across India, the Middle East, Europe and North America. Enquiries currently open.",
+        "Limited engagements each year — India, Middle East, Europe & North America. Enquiries open.",
     },
     {
-      title: "Signature Wedding & Event Catering",
-      role: "Bespoke Menus · Celebrity Chef Collaborations",
+      title: "Signature Wedding Catering",
+      role: "Bespoke Menus",
       city: "USA · India · Global",
       year: "2026 Season",
       blurb:
-        "Bespoke bespoke tasting menus for weddings and marquee celebrations — curated with celebrity chef collaborators from the Chef's global network.",
+        "Bespoke tasting menus for weddings & marquee events — celebrity-chef collaborations available.",
     },
     {
-      title: "Central Kitchen & Multi-Outlet Rollouts",
+      title: "Central Kitchen Rollouts",
       role: "Commissary Design & SOPs",
       city: "US · Middle East · India",
       year: "In Development",
       blurb:
-        "Commissary and central-kitchen builds for scaling restaurant groups and cloud-kitchen operators. Currently in scoping with two multi-brand groups.",
+        "In scoping with two multi-brand groups for scaled commissary builds.",
     },
     {
       title: "Family Heritage · Next Chapter",
@@ -248,7 +248,7 @@ export const projects = {
       city: "India · Since 1996",
       year: "Ongoing",
       blurb:
-        "Punjabi Dhaba (Pondicherry), Icarus Punjabi Dhaba (Chennai), My Wife's Place (Dehradun), lassi shops in Pondicherry & Howrah, plus K Resort and Celine's Kitchen — the family portfolio continues to grow.",
+        "Punjabi Dhaba, Icarus, My Wife's Place, K Resort, Celine's Kitchen — the family portfolio continues.",
     },
   ],
 };

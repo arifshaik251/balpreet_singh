@@ -5,16 +5,16 @@ const aboutImage =
   "https://customer-assets.emergentagent.com/job_culinary-nomad/artifacts/mnolkxds_WhatsApp%20Image%202026-07-06%20at%2012.50.44%20AM.jpeg";
 
 const journey = [
-  { year: "1996", place: "Family · India", note: "The Chadha family enters the restaurant business — Punjabi Dhabas, lassi shops, K Resort & Celine's Kitchen (Pondicherry)." },
-  { year: "2003", place: "Puducherry, IN", note: "Chef Balpreet begins his professional culinary career, raised inside the family trade." },
-  { year: "2005 — 12", place: "Taj · ITC · Marriott", note: "Masala Kraft (Taj Mumbai), Bukhara & Dum Pukht (ITC Maurya), Dakshin (Sheraton), Singh Sahib (Eros InterContinental), Bengaluru Marriott." },
-  { year: "2011", place: "ICC World Cup", note: "Banquet Chef — cooked for PM Modi, PM Singh, President Mukherjee, Hillary Clinton & Gulf royalty." },
-  { year: "2013 — 15", place: "United Arab Emirates", note: "Brand Chef, De Thali & PepperMill by Tablez — Lulu Group International." },
-  { year: "2015 — 16", place: "Madrid, ES", note: "Opening chef, Benares Madrid — Michelin recognized. Stages at 2★ Santceloni & Juanito Kojua, San Sebastián." },
-  { year: "2018 — 20", place: "New Delhi, IN", note: "Director of Culinary Ops → Exec Sous Chef, Andaz Delhi. AnnaMaya ranked #20 CNT India; #1 Raw & Fine." },
-  { year: "2022", place: "Kolkata, IN", note: "Executive Chef, The Park — launched Beer Garden, the first alfresco concept on Park Street." },
-  { year: "2023", place: "Dallas, TX", note: "Appointed Corporate Chef, Tivona Group. Named to Condé Nast Traveller India's '40 Under 40'." },
-  { year: "2024 — Now", place: "Texas · Sweden", note: "Opens Sanjh, Nirvana Lounge & The Mango Yard. Mentors Delhi 6 in Växjö. Consulting practice goes global." },
+  { year: "1996", place: "Family · India", note: "The Chadha family enters the restaurant business." },
+  { year: "2003", place: "Puducherry", note: "Career begins — raised inside the family trade." },
+  { year: "2005 — 12", place: "Taj · ITC · Marriott", note: "Masala Kraft, Bukhara, Dum Pukht, Dakshin, Singh Sahib." },
+  { year: "2011", place: "ICC World Cup", note: "Banquet Chef — PMs, presidents & Gulf royalty." },
+  { year: "2013 — 15", place: "UAE", note: "Brand Chef, De Thali & PepperMill — Lulu Group." },
+  { year: "2015 — 16", place: "Madrid", note: "Opening chef, Benares — Michelin recognized." },
+  { year: "2018 — 20", place: "New Delhi", note: "Andaz Delhi. AnnaMaya #20 CNT India; #1 Raw & Fine." },
+  { year: "2022", place: "Kolkata", note: "Exec Chef, The Park — launched Beer Garden." },
+  { year: "2023", place: "Dallas", note: "Corporate Chef, Tivona. CNT '40 Under 40'." },
+  { year: "2024 — Now", place: "Texas · Sweden", note: "Sanjh, Nirvana, Mango Yard, Delhi 6. Consulting goes global." },
 ];
 
 export default function About() {
@@ -79,17 +79,14 @@ export default function About() {
                 twenty years at the pass.
               </h2>
               <p className="mt-8 text-[#A8A29E] font-body font-light text-lg leading-relaxed max-w-2xl">
-                Chef Balpreet began his professional career in Puducherry in 2003, sharpened his craft
-                in India's most storied kitchens — Masala Kraft at the Taj Mumbai, Bukhara &amp; Dum
-                Pukht at ITC Maurya, and Dakshin at Sheraton — then took Indian cuisine to Madrid,
-                where he led the opening of Benares, recognized by the Michelin Guide in 2016.
+                Trained across India's most storied kitchens — Masala Kraft (Taj), Bukhara &amp; Dum
+                Pukht (ITC Maurya), Dakshin (Sheraton). Led the opening of Benares in Madrid,
+                Michelin-recognized in 2016.
               </p>
               <p className="mt-6 text-[#A8A29E] font-body font-light text-lg leading-relaxed max-w-2xl">
-                He returned to India to helm AnnaMaya at Andaz Delhi — ranked #20 on Condé Nast
-                Traveller India's Top Restaurants and #1 in the Raw &amp; Fine category — before
-                moving to Texas in 2023 as Corporate Chef of Tivona Group, where he opened Sanjh,
-                Nirvana Lounge and The Mango Yard. Today his consulting practice reaches from Delhi 6
-                in Sweden to central kitchens under scoping across three continents.
+                Returned to Delhi to helm AnnaMaya at Andaz — #20 on CNT India's Top Restaurants.
+                Now in Texas as Corporate Chef of Tivona Group. Consulting engagements reach from
+                Sweden to central kitchens across three continents.
               </p>
 
               {/* Guests strip */}

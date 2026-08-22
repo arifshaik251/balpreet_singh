@@ -29,9 +29,7 @@ export default function Consulting() {
           </div>
           <div className="lg:col-span-4">
             <p className="font-body font-light text-[#A8A29E] leading-relaxed">
-              Twenty years managing hotel, restaurant &amp; banqueting kitchens across three continents.
-              Investor-, customer- and employee-centred — from the first concept sketch to opening
-              night, and into operations that need a new direction.
+              Twenty years across three continents. From concept sketch to opening night — and into operations that need a new direction.
             </p>
             <a
               href="#contact"
@@ -69,8 +67,7 @@ export default function Consulting() {
             <div className="md:col-span-5 bg-[#141210] p-10 lg:p-14 flex flex-col justify-center">
               <div className="font-small-caps text-[#C5A059] mb-4">— At the Pass</div>
               <p className="font-serif-display italic text-2xl md:text-3xl text-[#E6E2DD] leading-snug">
-                &ldquo;The kitchen is a business first, a stage second. My job is to make sure both
-                run — quietly, precisely, night after night.&rdquo;
+                &ldquo;The kitchen is a business first, a stage second. My job is to make both run — quietly, precisely, night after night.&rdquo;
               </p>
               <div className="mt-6 font-small-caps text-[#A8A29E]">
                 — Chef Balpreet Singh Chadha
@@ -134,10 +131,10 @@ export default function Consulting() {
           <div className="font-small-caps text-[#A8A29E] mb-10">— How We Work</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { n: "01", t: "Discovery Call", d: "A conversation about your project, goals, timeline & budget — anywhere in the world." },
-              { n: "02", t: "Assessment & Proposal", d: "A written scope with deliverables, milestones and fees tailored to the project." },
-              { n: "03", t: "Engagement", d: "Hands-on execution with your team — on-site phases plus remote support as required." },
-              { n: "04", t: "Handover", d: "Documentation, training and post-launch reviews so results outlast the engagement." },
+              { n: "01", t: "Discovery Call", d: "A conversation about goals, timeline & budget." },
+              { n: "02", t: "Assessment & Proposal", d: "Written scope with deliverables, milestones and fees." },
+              { n: "03", t: "Engagement", d: "Hands-on execution — on-site plus remote support." },
+              { n: "04", t: "Handover", d: "Docs, training and post-launch reviews." },
             ].map((p) => (
               <div key={p.n} data-testid={`process-${p.n}`} className="border-t border-[#C5A059]/40 pt-5">
                 <div className="font-serif-display text-3xl text-[#C5A059]">{p.n}</div>

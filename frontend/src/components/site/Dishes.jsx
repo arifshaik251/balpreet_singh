@@ -26,8 +26,7 @@ export default function Dishes() {
           </div>
           <div className="lg:col-span-4">
             <p className="font-body font-light text-[#A8A29E] leading-relaxed">
-              Four plates that define the current chapter. Ingredient-first,
-              memory-led, quietly technical.
+              Ingredient-first, memory-led, quietly technical.
             </p>
           </div>
         </div>
@@ -103,9 +102,7 @@ export default function Dishes() {
               Curry-leaf &amp; spinach tuiles — the modern grammar of an ancient pantry.
             </h3>
             <p className="mt-5 text-[#A8A29E] font-body font-light leading-relaxed max-w-2xl">
-              Dehydrated curry-leaf and spinach crisps, plated as an edible sculpture. A signature
-              flourish across Chef Chadha's tasting menus — where the visual language of Modern
-              Indian meets the technique of the world's most exacting kitchens.
+              Dehydrated curry-leaf and spinach crisps, plated as an edible sculpture — a signature flourish across the tasting menu.
             </p>
           </div>
         </motion.div>
