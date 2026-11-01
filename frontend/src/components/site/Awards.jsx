@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 import { accolades, press } from "@/data/portfolio";
 
-const awardsImage =
-  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/0p61r8ky_IMG-0030.webp";
+const awardsImage = "/img/award-presentation.jpg";
 
 export default function Awards() {
   return (

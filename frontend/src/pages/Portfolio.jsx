@@ -5,6 +5,7 @@ import About from "@/components/site/About";
 import Consulting from "@/components/site/Consulting";
 import Dishes from "@/components/site/Dishes";
 import Projects from "@/components/site/Projects";
+import Gallery from "@/components/site/Gallery";
 import Awards from "@/components/site/Awards";
 import Contact from "@/components/site/Contact";
 import Footer from "@/components/site/Footer";
@@ -19,6 +20,7 @@ export default function Portfolio() {
       <Consulting />
       <Dishes />
       <Projects />
+      <Gallery />
       <Awards />
       <Contact />
       <Footer />

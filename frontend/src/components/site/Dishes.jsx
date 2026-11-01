@@ -2,8 +2,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import { dishes } from "@/data/portfolio";
 
-const detailImage =
-  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/km4m9eik_IMG-0501.JPG";
+const detailImage = "/img/plating-detail.jpg";
 
 function DishCard({ d, idx }) {
   const ref = useRef(null);

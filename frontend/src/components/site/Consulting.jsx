@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { services, cuisines } from "@/data/portfolio";
 
-const consultingImage =
-  "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/a2a9bi3h_IMG-0033.webp";
+const consultingImage = "/img/chef-plating.jpg";
 
 export default function Consulting() {
   return (
