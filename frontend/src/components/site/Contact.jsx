@@ -231,7 +231,7 @@ export default function Contact() {
                   data-testid="form-message-input"
                   className="editorial-input"
                   rows={4}
-                  placeholder="A little about your vision, timeline, and location…"
+                  placeholder="Vision, timeline, location…"
                   value={form.message}
                   onChange={update("message")}
                   required

@@ -68,38 +68,74 @@ export const dishes = [
   {
     id: "fish-roast",
     name: "Coastal Fish Roast",
-    origin: "Coastal South India · Good Morning Texas",
+    origin: "Coastal South · WFAA Dallas",
+    tall: true,
     image:
       "https://images.unsplash.com/photo-1692197275441-40c874f40385?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
-    note:
-      "Banana-leaf wrapped, curry-leaf tempered. Cooked live on WFAA Dallas.",
+    note: "Banana-leaf wrapped. Curry-leaf tempered. Cooked live on air.",
   },
   {
     id: "old-delhi-butter-chicken",
     name: "Old Delhi Butter Chicken",
-    origin: "Chandni Chowk · Delhi",
+    origin: "Chandni Chowk",
+    tall: false,
     image:
       "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwZGlzaCUyMGZpbmUlMjBkaW5pbmclMjBkYXJrfGVufDB8fHx8MTc4MzMxNjUwM3ww&ixlib=rb-4.1.0&q=85",
-    note:
-      "Clay-oven chicken finished in a slow tomato-fenugreek gravy — a homage to the 1947 original.",
+    note: "Clay-oven chicken, slow tomato-fenugreek gravy — the 1947 original, re-told.",
   },
   {
     id: "kerala-duck",
-    name: "Kerala Spiced Duck & Coco Bulgur",
+    name: "Kerala Spiced Duck",
     origin: "Hyatt Culinary Challenge",
+    tall: false,
     image:
       "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/6333o38c_IMG-0035.webp",
-    note:
-      "The plate that took him to the national final — duck, cèpes, roast kohlrabi, lamb-tongue crisps.",
+    note: "Duck, cèpes, roast kohlrabi, lamb-tongue crisps.",
+  },
+  {
+    id: "lamb-nihari",
+    name: "72-Hour Lamb Nihari",
+    origin: "Old Delhi",
+    tall: true,
+    image:
+      "https://images.pexels.com/photos/28435314/pexels-photo-28435314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1200",
+    note: "Slow-braised shank. Bone marrow. Hand-pulled saffron kulcha.",
   },
   {
     id: "prawn-spaghetti",
     name: "Prawn Aglio Spaghetti",
     origin: "Indo-Italian · global menu",
+    tall: false,
     image:
       "https://customer-assets-eiarnc6j.emergentagent.net/job_culinary-nomad/artifacts/jtemgb7k_IMG-0498.JPG",
-    note:
-      "Wok-kissed tiger prawns, Kashmiri chilli, black raisins, shaved parmesan.",
+    note: "Wok-kissed tigers, Kashmiri chilli, black raisins, parmesan.",
+  },
+  {
+    id: "duck-qorma",
+    name: "Nizami Duck Qorma",
+    origin: "Hyderabad",
+    tall: true,
+    image:
+      "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=900",
+    note: "Slow-cooked in cashew & yoghurt, finished with ittar.",
+  },
+  {
+    id: "mango-prawn-curry",
+    name: "Mango Prawn Curry",
+    origin: "Kerala · Scroll.in feature",
+    tall: false,
+    image:
+      "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=900",
+    note: "Unripe Alphonso, coconut, mustard oil. Red Kerala rice.",
+  },
+  {
+    id: "smoked-dal-makhani",
+    name: "Smoked Dal Makhani",
+    origin: "Punjab · overnight tandoor",
+    tall: false,
+    image:
+      "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=900",
+    note: "Black urad over the dum for 18 hours. Finished with charcoal smoke.",
   },
 ];
 
@@ -254,23 +290,10 @@ export const projects = {
 };
 
 export const press = [
-  {
-    publication: "Texas Monthly",
-    quote: "An elevated Indian restaurant paying homage to 3,500 years of cuisine.",
-  },
-  {
-    publication: "D Magazine",
-    quote: "Sanjh invites you to splurge on Indian fare — and rewards you for it.",
-  },
-  {
-    publication: "Condé Nast Traveller India",
-    quote:
-      "Named to '40 Under 40: India's Most Exciting Young Chefs.'",
-  },
-  {
-    publication: "The Week",
-    quote: "AnnaMaya believes in celebrating artisans — Chadha leads that conviction.",
-  },
+  { publication: "Texas Monthly", quote: "Paying homage to 3,500 years of cuisine." },
+  { publication: "D Magazine", quote: "Rewards you for splurging on Indian fare." },
+  { publication: "Condé Nast Traveller India", quote: "40 Under 40 — India's most exciting young chefs." },
+  { publication: "The Week", quote: "AnnaMaya celebrates artisans — Chadha leads that conviction." },
 ];
 
 export const tvFeatures = [
